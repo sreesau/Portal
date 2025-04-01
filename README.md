@@ -1,4 +1,4 @@
-Portal is a web application built using Django (for the backend) and React (for the frontend). The application allows users to upload files and manage their profile. The backend is connected to a MariaDB database running on port 3307. The application provides authentication, file management, and a dashboard displaying file uploads by users.
+Portal is a web application built using Django (for the backend) and ReactJs (for the frontend). The application allows users to upload files and manage their profile. The backend is connected to a MariaDB database running on port 3307. The application provides authentication, file management, and a dashboard displaying file uploads by users.
 
 **Technologies Used**
 
