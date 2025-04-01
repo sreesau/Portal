@@ -1,0 +1,141 @@
+/* General Page Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.navbar a {
+    color: yellow; 
+    text-decoration: none;
+    font-size: 18px;
+    padding: 6px 12px;
+    transition: 0.3s ease;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    color: orange;
+    text-decoration: none; 
+
+}
+.logout-btn {
+    background-color: #f8f9fa;
+    color: blueviolet;
+    border: none;
+    padding: 6px 12px;
+    font-size: 16px;
+    width: 100px; 
+    height: 40px; 
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    text-align: center;
+}
+
+.logout-btn:hover {
+    background-color: #c82333;
+}
+
+.profile-container {
+    width: 1300PX;
+    margin: 10px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.uploaded-files {
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.file-table-container {
+    width: 100%;
+    margin: 20px auto;
+    overflow-x: auto;
+}
+
+.file-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+
+.file-table th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    padding: 16px;
+    text-align: left;
+}
+
+/* Table Cells */
+.file-table th, .file-table td {
+    border: 1px solid #ddd;
+    padding: 14px;
+    font-size: 16px;
+}
+
+.file-table tr:hover {
+    background-color: #ddd;
+}
+
+.profile-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.profile-form input, .profile-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.profile-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    font-size: 15px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-radius: 5px;
+}
+
+.profile-form button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+
